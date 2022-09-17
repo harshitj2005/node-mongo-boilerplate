@@ -1,0 +1,43 @@
+# Github Node Default
+
+pids
+results
+
+npm-debug.log
+package-lock.json
+node_modules
+newrelic_agent.log
+
+# From Mean Stack
+.DS_Store
+node_modules/
+logs/
+public/lib
+test/coverage/
+logs/
+
+# Configuration Files
+/config/env/development.json5
+/config/env/production.json5
+/config/env/uat.json5
+/config/env/it.json5
+/config/env/test.json5
+/coverage
+public/uploads/*
+*.local
+
+# IDE files
+.idea
+.vscode
+.nyc_output/
+.scannerwork/
+/.*.md.html
+.settings
+.project
+.classpath
+*~
+*.swp
+*.swo
+logs/
+staticData/
+.eslintcache

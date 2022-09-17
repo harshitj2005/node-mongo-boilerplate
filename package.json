@@ -1,0 +1,61 @@
+{
+  "name": "node-mongo-boilerplate",
+  "description": "A basic boilerplate for nodejs backend application with support of mongo, express",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Harshit jain",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshitj2005/node-mongo-boilerplate.git"
+  },
+  "engines": {
+    "node": "16.17.x",
+    "npm": "8.15.x"
+  },
+  "scripts": {
+    "start": "",
+    "test": "mocha",
+    "postinstall": "cp config/env/development.json5.sample config/env/development.json5 && cp config/env/production.json5.sample config/env/production.json5"
+  },
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "async": "^3.2.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-request-id": "^2.0.1",
+    "glob": "^8.0.3",
+    "helmet": "^6.0.0",
+    "http-status": "^1.5.3",
+    "json5": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "nconf": "^0.12.0",
+    "nocache": "^3.0.4",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "serve-favicon": "^2.5.0",
+    "standard-error": "^1.1.0",
+    "validator": "^13.7.0",
+    "winston": "^3.8.1"
+  },
+  "eslintIgnore": [
+    "/dist/*.js"
+  ],
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-ava": "^13.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.4",
+    "mocha": "^10.0.0"
+  }
+}
